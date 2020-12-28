@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Ubuntu");
+
+*{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  user-select: none;
+}
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+.big-heading{
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+}
+p{
+  color: #8f8f8f;
+}
+.logo a{
+  font-family: 'Montserrat-Black';
+  text-align: center;
+font-size: 4rem;
+font-weight: bold;
+}
+.p{
+  text-align: center;
+  text-decoration-color:
+}
+#title{
+  background-color: #E87FD1;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+#title .container-fluid{
+  width: 100%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  float: : center;
+  margin-left: 10rem;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+
+#features{
+background-color: #fff;
+}
+.feature-title{
+   font-size: 1.5rem;
+   text-align: justify;
+}
+.icon{
+color: #F851D3;
+margin-right: 2rem;
+float: left;
+}
+.icon:hover{
+  color: #F9B5EA;
+}
+
+
+
+#aboutus{
+  padding: 7% 15%;
+  background-color: #E87FD1;
+  color: #fff;
+}
+.aboutus-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align:left;
+}
+
+#itworks{
+  padding: 7% 15%;
+}
+
+#theysay{
+  padding: 7% 15%;
+  background-color: #E87FD1;
+  color: #fff;
+}
+
+#getouch{
+  padding: 7% 15%;
+  align-items: center;
+}
+
+
+#footer{
+  padding: 0.5%;
+background: #C3BCC2;
+}
+.footer p{
+	color: #fff;
+}
